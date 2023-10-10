@@ -1,0 +1,13 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()
+{
+	 int a=0 ;
+	 int b=0;
+	 int 身体质量指数 = 0;
+	 printf("体重=(  )Kg;身高=(  )Cm ");
+	scanf ("%d%d", &a, &b);
+	身体质量指数 = 10000*a / (b*b);
+	printf("身体质量指数=%d\n", 身体质量指数);
+	return 0;
+}
